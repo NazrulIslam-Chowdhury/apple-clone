@@ -4,26 +4,14 @@ import hero from "../../public/assets/images/hero.jpeg";
 
 export const heroImg = hero;
 
-const hmv = new URL("../../public/assets/videos/hero.mp4", import.meta.url);
-const smallmv = new URL("../../public/assets/videos/smallHero.mp4", import.meta.url);
-const highlightFirstmv = new URL(
-  "../../public/assets/videos/highlight-first.mp4",
-  import.meta.url
-);
-const highlightSectmv = new URL(
-  "../../public/assets/videos/hightlight-third.mp4",
-  import.meta.url
-);
-const highlightThirdmv = new URL(
-  "../../public/assets/videos/hightlight-sec.mp4",
-  import.meta.url
-);
-const highlightFourthmv = new URL(
-  "../../public/assets/videos/hightlight-fourth.mp4",
-  import.meta.url
-);
-const exploremv = new URL("../../public/assets/videos/explore.mp4", import.meta.url);
-const framemv = new URL("../../public/assets/videos/frame.mp4", import.meta.url);
+import hmv from "../../public/assets/videos/hero.mp4";
+import smallmv from "../../public/assets/videos/smallHero.mp4";
+import highlightFirstmv from "../../public/assets/videos/highlight-first.mp4";
+import highlightSectmv from "../../public/assets/videos/hightlight-third.mp4";
+import highlightThirdmv from "../../public/assets/videos/hightlight-sec.mp4";
+import highlightFourthmv from "../../public/assets/videos/hightlight-fourth.mp4";
+import exploremv from "../../public/assets/videos/explore.mp4";
+import framemv from "../../public/assets/videos/frame.mp4";
 
 import apple from "../../public/assets/images/apple.svg";
 import search from "../../public/assets/images/search.svg";
